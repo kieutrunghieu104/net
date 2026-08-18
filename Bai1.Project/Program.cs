@@ -8,11 +8,11 @@ namespace Bai1.Project
 {
     internal class Program
     {
+        int x = 10;
         static void Main(string[] args)
         {
-            Console.OutputEncoding = Encoding.UTF8;
-            Console.Write("hello");
-            Console.ReadKey(true);
+            string x = "20";
+            Console.WriteLine(x);
         }
     }
 }
