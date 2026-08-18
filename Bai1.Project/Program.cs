@@ -8,11 +8,48 @@ namespace Bai1.Project
 {
     internal class Program
     {
-        int x = 10;
         static void Main(string[] args)
         {
-            string x = "20";
-            Console.WriteLine(x);
+            int n;
+            int max = int.MinValue;
+            Console.Write("So 1: ");
+            n = int.Parse(Console.ReadLine());
+            if (n >= max)
+            {
+                max = n;
+            }
+
+            Console.Write("So 1: ");
+            n = int.Parse(Console.ReadLine());
+            if (n >= max)
+            {
+                max = n;
+            }
+
+            Console.Write("So 1: ");
+            n = int.Parse(Console.ReadLine());
+            if (n >= max)
+            {
+                max = n;
+            }
+
+            Console.Write("So 1: ");
+            n = int.Parse(Console.ReadLine());
+            if (n >= max)
+            {
+                max = n;
+            }
+
+            Console.Write("So 1: ");
+            n = int.Parse(Console.ReadLine());
+            if (n >= max)
+            {
+                max = n;
+            }
+
+            Console.WriteLine(n);
+
+
         }
     }
 }
